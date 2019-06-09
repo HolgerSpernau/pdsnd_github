@@ -148,7 +148,11 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """
+    Displays statistics on bikeshare users.
+    Input:  None.
+    Output: Information on user type, gender, birth year and process time.
+    """
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
@@ -180,7 +184,11 @@ def user_stats(df):
 
 
 def raw_data(df):
-    """Displays the raw data, if user enters 'y' or doesn't display, if user enters 'n'"""
+    """
+    Displays the raw data, if user enters 'yes' or doesn't display, if user enters 'no'
+    Input:  Strings
+    Output: Display of 5 lines of raw data
+    """
 
     counter = 0
 
@@ -196,6 +204,8 @@ def raw_data(df):
 
 
 def main():
+    """Main structure of the program"""
+    
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
