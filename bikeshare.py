@@ -196,6 +196,8 @@ def raw_data(df):
 
 
 def main():
+    """Main structure of the program"""
+    
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
