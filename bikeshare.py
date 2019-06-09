@@ -180,7 +180,11 @@ def user_stats(df):
 
 
 def raw_data(df):
-    """Displays the raw data, if user enters 'y' or doesn't display, if user enters 'n'"""
+    """
+    Displays the raw data, if user enters 'yes' or doesn't display, if user enters 'no'
+    Input:  Strings
+    Output: Display of 5 lines of raw data
+    """
 
     counter = 0
 
