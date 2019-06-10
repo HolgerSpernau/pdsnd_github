@@ -37,3 +37,6 @@ First loop with new description for git project done
 
 ### Git Project, Jun. 11, 2019
 Second loop with new description for git project done
+
+### Git Project, Jun. 11, 2019
+Third loop with new description for git project done
