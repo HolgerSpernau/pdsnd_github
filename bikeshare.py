@@ -42,7 +42,7 @@ def get_filters():
         if day in ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'):
             break
         else:
-            print('Wrong entry. Please enter the name of a day.')
+            print('\nWrong entry. Please enter the name of a day.\n')
             
     print('-'*40)
     return city, month, day
