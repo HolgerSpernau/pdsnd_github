@@ -33,7 +33,7 @@ def get_filters():
         if month in ('all', 'january', 'february', 'march', 'april', 'may', 'june'):
             break
         else:
-            print('Wrong entry. Please enter the name of a month.')
+            print('\nWrong entry. Please enter the name of a month.\n')
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
