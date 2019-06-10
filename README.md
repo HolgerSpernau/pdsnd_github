@@ -34,3 +34,6 @@ Coworker change 2 on git project done
 
 ### Git Project, Jun. 11, 2019
 First loop with new description for git project done
+
+### Git Project, Jun. 11, 2019
+Second loop with new description for git project done
