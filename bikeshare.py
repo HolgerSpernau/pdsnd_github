@@ -128,7 +128,11 @@ def station_stats(df):
 
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """
+    Displays statistics on the total and average trip duration.
+    Input:  None.
+    Output: Returns the total travel time, the mean travel time and the processing time.
+    """
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
