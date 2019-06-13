@@ -1,3 +1,16 @@
+# GitHub project of Programming for Data Science Nanodegree (PDSND) at Udacity (05/2019)
+
+# Description
+This was the last project of the PDSND to show the GitHub skills.
+
+# Installation
+Simply fork the project, if you are interested.
+
+# License
+All rights reserved.
+
+# Changes done
+
 ### Date created
 Include the date you created this project and README file.
 
